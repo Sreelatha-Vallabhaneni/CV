@@ -1,3 +1,4 @@
+<!-- html boiler plate code -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,33 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SREELATHA VALLABHANENI CV</title>
+<!-- rel attribute specifies the relationship between the current document and the linked document/resource. -->
     <link rel="icon" href="images/android-chrome-512x512.png">
     <link rel="stylesheet" href="CSS/main.css">  
     <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!-- visible data starts here-->
 <body>
+<!-- create navigation bar with nav tag-->    
     <nav>        
         <div class="top-navbar">
             <div class="hero-text">
                 <h1>SREELATHA VALLABHANENI</h1>
                 <p>Software Tester &<br>Web Developer (Trainee)</p>
             </div>
-            <div class="top-navbar-menu-items">
-                <a class="active" href="#home">Home</a>
-                <a href="#about me">About Me</a>
-                <a href="#education ">Education</a>
-                <a href="#work experience">Work Experience</a>
-                <a href="#contact">Contact</a>
+            <div class="top-navbar-menu-items" id="myTopnav">
+                <a class="active" href="#container">Home</a>
+                <a href="#vallabhaneni-about-sec">About Me</a>
+                <a href="#vallabhaneni-education-sec">Education</a>
+                <a href="#vallabhaneni-work-experience-sec">Work Experience</a>
+                <a href="#vallabhaneni-contact-sec">Contact</a>                
             </div>            
         </div>
-    </nav>
-     <main>
-        <div class="container">            
+    </nav> 
+    <main>
+        <div id="container">            
             <img class="hero-image" src="https://d2hx210k2lwgvz.cloudfront.net/wp-content/uploads/2017/12/MOC-2.png"
                 alt="html background image" width="100%">            
         </div>
-        <section class="vallabhaneni-about-sec">
+        <section id="vallabhaneni-about-sec">
             <div class="sreelatha-image">
                 <img id="sreelatha-profile-img" src="C:\Users\sreelatha\Desktop\web development\My CV\images\sreelatha-profile.jpg"
                 alt="sreelatha vallabhaneni">
@@ -54,7 +58,7 @@
         </section>
     </main>
     <hr noshade="noshade">
-    <section>
+    <section id="vallabhaneni-education-sec">
         <h2 class="education-title">Education</h2>
         <article>
             <div class="education-institute-place">
@@ -98,7 +102,7 @@
     </section>
     <hr noshade="noshade">
     <!--Create work experience section -->
-    <section>
+    <section id="vallabhaneni-work-experience-sec">
         <h2 class="work-experience-title">Work Experience</h2>
         <article>
             <div class="work-experience-mavin-info-tech">
@@ -220,7 +224,7 @@
         </article>
     </section>
     <hr noshade="noshade">
-    <section class="sreelatha-contact">
+    <section class="sreelatha-contact" id="vallabhaneni-contact-sec">
         <h2 class="contact-title">Contact</h2>
         <article class="sreelatha-contact">
             <div class="contact-phone-symbol">

@@ -35,9 +35,6 @@ background: repeating-linear-gradient(
   border: solid rgba(48, 48, 48, 0.205);
   position: fixed;
 }
-.top-navbar-menu-items{
-  float: right;
-}
 /* Style the navigation menu items and used gradient property for text*/
 .top-navbar a{  
   font-size: 20px;
@@ -55,6 +52,9 @@ background: repeating-linear-gradient(
 .top-navbar a:hover {
   background-image: linear-gradient(to right, rgba(241, 75, 144, 0.87), rgb(63, 240, 247));
   transform: scale(1.7);   
+}
+.top-navbar-menu-items{
+  float: right;
 }
 /*  Style the sreelatha's profile image and used border property of CSS*/
 #sreelatha-profile-img {
